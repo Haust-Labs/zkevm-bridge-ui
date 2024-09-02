@@ -62,14 +62,22 @@ export const useTokenListStyles = createUseStyles((theme: Theme) => ({
   },
   searchIcon: {
     marginRight: theme.spacing(1.25),
+    color: theme.palette.btn.linkbtn,
   },
   searchInput: {
     border: 0,
+    background: "none",
     outline: 0,
     padding: [theme.spacing(2), 0],
     width: "100%",
+    color: theme.palette.input.text,
   },
   searchInputContainer: {
+    border: theme.palette.input.border,
+    borderRadius: "8px",
+    padding:"0px 8px",
+    background: theme.palette.input.background,
+    color: theme.palette.input.text,
     alignItems: "center",
     borderBottom: `1px solid ${theme.palette.grey.light}`,
     display: "flex",
@@ -85,6 +93,7 @@ export const useTokenListStyles = createUseStyles((theme: Theme) => ({
   tokenButton: {
     "&:hover": {
       background: theme.palette.grey.main,
+      border: "1px solid #727D8D",
     },
     alignItems: "center",
     background: theme.palette.grey.light,
@@ -128,7 +137,7 @@ export const useTokenListStyles = createUseStyles((theme: Theme) => ({
   },
   tokenInfoButtonIcon: {
     "& path": {
-      fill: theme.palette.grey.dark,
+      fill: theme.palette.btn.linkbtn,
     },
   },
   tokenInfoWithBalance: {

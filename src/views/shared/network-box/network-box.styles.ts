@@ -9,11 +9,12 @@ export const useNetworkBoxStyles = createUseStyles((theme: Theme) => ({
       opacity: 0.75,
     },
     "&:hover:not(:disabled)": {
-      background: theme.palette.grey.main,
+      background: theme.palette.btn.second,
     },
     alignItems: "center",
     appearance: "none",
-    background: theme.palette.grey.light,
+    color: theme.palette.btn.text,
+    background: theme.palette.btn.main,
     border: "none",
     borderRadius: 8,
     cursor: "pointer",
@@ -32,7 +33,7 @@ export const useNetworkBoxStyles = createUseStyles((theme: Theme) => ({
     textAlign: "center",
   },
   link: {
-    color: theme.palette.primary.dark,
+    color: theme.palette.btn.text,
   },
   list: {
     paddingLeft: theme.spacing(2),

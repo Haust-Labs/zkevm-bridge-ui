@@ -7,8 +7,11 @@ export const useAmountInputStyles = createUseStyles((theme: Theme) => ({
     "&:disabled": {
       backgroundColor: "transparent",
     },
-    border: "none",
+    border: theme.palette.input.border,
+    background: theme.palette.input.background,
+    color: theme.palette.input.text,
     borderRadius: 8,
+    padding: "5px",
     fontSize: "20px",
     lineHeight: "24px",
     outline: "none",

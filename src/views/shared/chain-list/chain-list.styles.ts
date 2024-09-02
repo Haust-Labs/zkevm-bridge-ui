@@ -15,13 +15,14 @@ export const useListStyles = createUseStyles((theme: Theme) => ({
   button: {
     "&:hover": {
       background: theme.palette.grey.main,
+      border: "1px solid #727D8D",
     },
     "&:not(:first-of-type)": {
       marginTop: theme.spacing(1),
     },
     alignItems: "center",
     background: theme.palette.grey.light,
-    border: "none",
+    border: "1px solid #000",
     borderRadius: 8,
     cursor: "pointer",
     display: "flex",
@@ -36,7 +37,7 @@ export const useListStyles = createUseStyles((theme: Theme) => ({
   },
   closeButton: {
     "&:hover": {
-      background: theme.palette.grey.main,
+      background: theme.palette.btn.close,
     },
     alignItems: "center",
     background: theme.palette.grey.light,

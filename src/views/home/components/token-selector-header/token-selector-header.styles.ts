@@ -27,7 +27,7 @@ export const useTokenSelectorHeaderStyles = createUseStyles((theme: Theme) => ({
   },
   closeButton: {
     "&:hover": {
-      background: theme.palette.grey.main,
+      background: theme.palette.btn.close,
     },
     alignItems: "center",
     background: theme.palette.grey.light,
@@ -46,6 +46,9 @@ export const useTokenSelectorHeaderStyles = createUseStyles((theme: Theme) => ({
   closeButtonIcon: {
     height: 16,
     width: 16,
+    "& path": {
+      fill: theme.palette.btn.linkbtn,
+    },
   },
   tokenSelectorHeader: {
     alignItems: "center",
