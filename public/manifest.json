@@ -1,7 +1,7 @@
 {
 
-  "short_name": "Polygon zkEVM Bridge",
-  "name": "Polygon zkEVM Bridge",
+  "short_name": "Haust Network Bridge",
+  "name": "Haust Network Bridge",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
@@ -13,7 +13,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "favicon-32x32.png",
       "type": "image/png",
       "sizes": "192x192"
     }
